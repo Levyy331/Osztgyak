@@ -39,5 +39,9 @@ namespace Osztgyak
             osszesRegisztraltSzoba++;
              
         }
+        public override string ToString()
+        {
+            return $"[{Szobaszam}] Emelet: {Emelet}. | Férőhely: {Ferohely} fő | Ár: {EjszakaiAr} Ft/éj";
+        }
     }
 }
