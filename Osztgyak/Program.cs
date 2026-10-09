@@ -25,7 +25,5 @@ else
 {
     Console.WriteLine("A szobak.txt fájl nem található");
 }
-foreach(Szoba szoba in szobak)
-{
-    Console.WriteLine(szoba);
-}
+foreach(Szoba sz in szobak) Console.WriteLine(sz);
+Console.WriteLine($"Összes regisztrált szoba: {Szoba.OsszesRegisztraltSzoba}");
